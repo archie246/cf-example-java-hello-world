@@ -12,6 +12,7 @@ steps:
       type: build
       dockerfile: Dockerfile
       image_name: archie246/cfexamplejavahelloworld
+      tag: ${{CF_SHORT_REVISION}}
     launch_composition:
       title: Launch Composition
       type: launch-composition
